@@ -41,7 +41,7 @@ SafeRoute AI transforms navigation into a **safety-first decision system** by an
 
 ## 🚀 Live Project
 
-👉 Add your deployed Streamlit link here
+👉 https://safe-route-ai.streamlit.app/
 
 ---
 
@@ -53,7 +53,7 @@ SafeRoute AI transforms navigation into a **safety-first decision system** by an
 
 ## 📸 Screenshots
 
-(Add images from assets/screenshots)
+
 
 ---
 
