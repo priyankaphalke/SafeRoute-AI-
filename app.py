@@ -8,6 +8,21 @@ import json
 from datetime import datetime
 import requests
 
+
+def send_alert():
+    url = "https://phalkepm.app.n8n.cloud/webhook-test/emergency-alert"
+
+    data = {
+        "location": "Pune",
+        "risk": 85
+    }
+
+    requests.post(url, json=data)  
+
+if st.button("🚨 Emergency Alert"):
+    send_alert()
+    st.success("Alert sent!")
+    
 # ─── PAGE CONFIG ────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="SafeRoute AI",
