@@ -1,101 +1,85 @@
-# 🛡 SafeRoute AI — Real-Time Adaptive Safety Navigation System
+# 🚨 SafeRoute AI
 
-A production-quality hackathon project: safety-first navigation powered by 
-multi-factor risk intelligence, real-time simulation, and an immersive dark UI.
+### 🛡 Safety-First Navigation System
 
----
-
-## 🚀 Quick Start
-
-### 1. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Run the App
-
-```bash
-streamlit run app.py
-```
-
-The app opens at **http://localhost:8501**
+Built by **Team Ctrl + Slay**
 
 ---
 
-## 📁 File Structure
+## 🌍 Problem
 
-```
-saferoute_ai/
-├── app.py              ← Full Streamlit application (~600 lines)
-├── requirements.txt    ← Python dependencies
-└── README.md           ← This file
-```
+Traditional navigation apps focus only on speed and distance, ignoring safety factors like lighting, surveillance, and past incidents.
+
+This creates serious risks, especially for women and night-time travelers.
 
 ---
 
-## 🧠 Features
+## 💡 Solution
 
-| Feature | Description |
-|---|---|
-| 👤 User Profile | Name, phone, 3 emergency contacts in sidebar |
-| 📍 Location Detection | IP-based or simulated coordinates |
-| 🔍 Route Analysis | Animated 7-step real-time simulation |
-| 📊 Risk Engine | Multi-factor scoring (CCTV, lighting, crowd, user type) |
-| 🗺 Safety Heatmap | Folium dark map with color-coded risk circles |
-| 🔔 Predictive Alerts | Context-aware warnings along route |
-| 🛡 Safety Tips | Risk-adaptive guidance |
-| 👩 Women Safety Layer | Enhanced sensitivity + dedicated warnings |
-| 🚨 SOS Dispatch | Simulated emergency alert with contacts |
+SafeRoute AI transforms navigation into a **safety-first decision system** by analyzing environmental risk factors and recommending safer routes.
 
 ---
 
-## 🏙 Supported Cities
+## ⚙️ Key Features
 
-- **Mumbai** — 10 zones
-- **Delhi** — 8 zones  
-- **Bengaluru** — 6 zones
-- **Pune** — 5 zones
-
----
-
-## ⚙️ Risk Formula
-
-```
-risk = incident_score × 10
-     + 15  (if Night)
-     + 10  (if CCTV Low)
-     − 10  (if CCTV High)
-     + 8   (if Lighting Low)
-     + 10  (if User = Woman)
-     + 7   (if Night + Low Crowd)
-     + 5   (if Mode = Fast)
-     − 10  (if Mode = Safety First)
-     
-clamped to [0, 100]
-```
+* 🔀 Smart Route Comparison (Fast / Balanced / Safe)
+* 📊 Dynamic Risk Scoring System
+* 🗺 Safety Heatmap Visualization
+* ⚠️ Predictive Alerts for Unsafe Zones
+* 👤 User Profile with Emergency Contacts
+* 🚨 Emergency Alert System (n8n Automation)
 
 ---
 
-## 🌐 API Usage
+## 🧠 Tech Stack
 
-- **ipapi.co** — Free IP geolocation (no key needed, graceful fallback)
-- All other data is **intelligently simulated** — no API keys required
-
----
-
-## 🏆 Tech Stack
-
-- `streamlit` — UI framework
-- `folium` + `streamlit-folium` — Interactive maps
-- `requests` — IP geolocation API call
-- Pure Python — zero database, zero backend server
+* Python (Streamlit)
+* Folium (Map Visualization)
+* n8n (Automation Workflow)
 
 ---
 
-## 💡 Hackathon Tips
+## 🚀 Live Project
 
-- Demo the **Night mode + Woman profile** combination for maximum impact
-- Click zone circles on the map to view detailed risk breakdowns
-- Use the **SOS button** to demonstrate the emergency dispatch simulation
-- Show all 3 route options and highlight the recommended safe route
+👉 Add your deployed Streamlit link here
+
+---
+
+## 🎥 Demo Video
+
+👉 Add your video link here
+
+---
+
+## 📸 Screenshots
+
+(Add images from assets/screenshots)
+
+---
+
+## 👩‍💻 Team Ctrl + Slay
+
+* Priyanka Phalke
+
+---
+
+## 🔮 Future Scope
+
+* Real-time crime data integration
+* SMS / WhatsApp alerts
+* Live GPS tracking
+* Mobile app version
+
+---
+
+## ⚠️ Note
+
+This project uses simulated data for demonstration purposes.
+
+---
+
+## 💬 Final Thought
+
+SafeRoute AI transforms navigation into a **safety-first experience**.
+
+---
