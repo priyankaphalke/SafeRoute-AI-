@@ -14,7 +14,8 @@ def send_alert():
 
     data = {
         "location": "Pune",
-        "risk": 85
+        "risk": 85,
+        "phone": +91 8010320616
     }
 
     requests.post(url, json=data)  
