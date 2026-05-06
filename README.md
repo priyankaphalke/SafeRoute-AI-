@@ -52,10 +52,10 @@ SafeRoute AI transforms navigation into a **safety-first decision system** by an
 ---
 ## 👩‍💻 Team Ctrl + Slay
 
-* Priyanka Phalke
-* Pranjal Aware
-* Rutul Shrivastava
-* Shreya Ugale
+* Priyanka Phalke (AI/ML)
+* Pranjal Aware (Documentation)
+* Rutul Shrivastava (Design Engineer)
+* Shreya Ugale (Researcher)
 ---
 
 ## 🔮 Future Scope
